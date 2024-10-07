@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Real-Time Business Dashboard</h1>
+        <div class="card mt-3">
+            <div class="card-body">
+                <h5>Total Sales: {{ metrics.total_sales }}</h5>
+                <h5>Total Visitors: {{ metrics.total_visitors }}</h5>
+                <h5>Conversion Rate: {{ metrics.conversion_rate }}%</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
